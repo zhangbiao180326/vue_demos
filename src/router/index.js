@@ -5,6 +5,11 @@ import Hello from '@/components/Hello'
 import directives from '@/components/directives'
 import didatabind from '@/components/didatabind'
 import eventdeal from '@/components/eventdeal'
+import styledeno from '@/components/styledeno'
+import computedemo from '@/components/computedemo'
+import watchdemo from '@/components/watchdemo'
+import ajaxdemo from '@/components/ajaxdemo'
+import provincedemo from '@/components/provincedemo'
 Vue.use(Router)
 
 export default new Router({
@@ -32,6 +37,31 @@ export default new Router({
     path: '/eve',
     name: 'eventdeal',
     component: eventdeal
+  },
+  {
+    path: '/style',
+    name: 'styledeno',
+    component: styledeno
+  },
+  {
+    path: '/com',
+    name: 'computedemo',
+    component: computedemo
+  },
+  {
+    path: '/wat',
+    name: 'watchdemo',
+    component: watchdemo
+  },
+  {
+    path: '/ajax',
+    name: 'ajaxdemo',
+    component: ajaxdemo
+  },
+  {
+    path: '/prov',
+    name: 'provincedemo',
+    component: provincedemo
   }
   ]
 })
